@@ -28,7 +28,7 @@
         // https://nominatim.openstreetmap.org/ui/search.html
 
         // Inicializa o Leaflet (altere lat e lon)
-        var map = L.map('map').setView({ lat: -30.0324999, lon: -51.2303767 }, 10);
+        var map = L.map('map').setView({ lat: -14.0691776, lon: -42.4852428 }, 10);
 
         // add the OpenStreetMap tiles
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,7 +40,7 @@
         L.control.scale({ imperial: true, metric: true }).addTo(map);
 
         // Exibe um marcador no mapa (altere lat, lon, e nome da cidade)
-        L.marker({ lat: -30.0324999, lon: -51.2303767 }).bindPopup('Porto Alegre').addTo(map);
+        L.marker({ lat: -14.0691776, lon: -42.4852428 }).bindPopup('Caetité').addTo(map);
     </script>
 </body>
 
